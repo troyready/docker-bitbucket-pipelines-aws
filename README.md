@@ -10,6 +10,7 @@ Includes:
 * [git](https://git-scm.com/)
 * [jq](https://stedolan.github.io/jq/)
 * [unzip](http://www.info-zip.org/UnZip.html)
+* [Python 2](https://www.python.org/)
 * [Terraform](https://www.terraform.io/)
 * [ChefDK](https://downloads.chef.io/chefdk)
 * [AWS CLI](https://pypi.python.org/pypi/awscli)
