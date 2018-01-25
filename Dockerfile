@@ -3,6 +3,7 @@ FROM ubuntu:latest
 RUN set -xe \
 	&& apt-get update \
 	&& apt-get -y install curl git jq npm python-pip unzip \
+  && rm -rf /var/lib/apt/lists/* \
 	&& update-alternatives --install /usr/bin/node node /usr/bin/nodejs 10 \
 	&& pip install ansible awscli flake8 pep8-naming pydocstyle pylint stacker yamllint \
 	&& curl -L https://omnitruck.chef.io/install.sh | bash -s -- -P chefdk \
@@ -12,7 +13,3 @@ RUN set -xe \
 	&& unzip /tmp/terraformtmp/terraform.zip -d /tmp/terraformtmp \
 	&& cp -p /tmp/terraformtmp/terraform /usr/local/bin/ \
 	&& rm -r /tmp/terraformtmp
-
-# delete all the apt list files since they're big and get stale quickly
-RUN rm -rf /var/lib/apt/lists/*
-# this forces "apt-get update" in dependent images, which is also good
