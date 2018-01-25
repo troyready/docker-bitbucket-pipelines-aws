@@ -11,6 +11,8 @@ Includes:
 * [jq](https://stedolan.github.io/jq/)
 * [unzip](http://www.info-zip.org/UnZip.html)
 * [Python 2](https://www.python.org/)
+* [Node.js](https://nodejs.org/)
+* [Serverless](https://serverless.com/)
 * [Terraform](https://www.terraform.io/)
 * [ChefDK](https://downloads.chef.io/chefdk)
 * [AWS CLI](https://pypi.python.org/pypi/awscli)
