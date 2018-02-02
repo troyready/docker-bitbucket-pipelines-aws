@@ -1,10 +1,11 @@
-FROM ubuntu:latest
+FROM ubuntu:artful
 
 RUN set -xe \
 	&& apt-get update \
 	&& apt-get -y install curl git jq npm python-pip unzip \
   && rm -rf /var/lib/apt/lists/* \
 	&& update-alternatives --install /usr/bin/node node /usr/bin/nodejs 10 \
+	&& npm install npm@latest -g \
 	&& pip install ansible awscli flake8 future pep8-naming pydocstyle pylint stacker yamllint \
 	&& curl -L https://omnitruck.chef.io/install.sh | bash -s -- -P chefdk \
 	&& npm install -g serverless \
