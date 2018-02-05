@@ -16,6 +16,7 @@ Includes:
 * [Terraform](https://www.terraform.io/)
 * [ChefDK](https://downloads.chef.io/chefdk)
 * [AWS CLI](https://pypi.python.org/pypi/awscli)
+* [Sceptre](https://pypi.python.org/pypi/sceptre)
 * [Stacker](https://pypi.python.org/pypi/stacker)
 * [Ansible](https://pypi.python.org/pypi/ansible)
 * [flake8](https://pypi.python.org/pypi/flake8)
