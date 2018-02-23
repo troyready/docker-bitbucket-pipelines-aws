@@ -15,6 +15,7 @@ Includes:
 * [Serverless](https://serverless.com/)
 * [Terraform](https://www.terraform.io/)
 * [ChefDK](https://downloads.chef.io/chefdk)
+* [Pipenv](https://pypi.python.org/pypi/pipenv)
 * [AWS CLI](https://pypi.python.org/pypi/awscli)
 * [Runway](https://pypi.python.org/pypi/runway)
 * [Sceptre](https://pypi.python.org/pypi/sceptre)
