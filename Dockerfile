@@ -2,7 +2,7 @@ FROM ubuntu:bionic
 
 RUN set -xe \
 	&& apt-get update \
-	&& apt-get -y install curl git jq npm python-pip unzip \
+	&& apt-get -y install curl git jq npm python-pip python3-pip unzip \
   && rm -rf /var/lib/apt/lists/* \
 	&& update-alternatives --install /usr/bin/node node /usr/bin/nodejs 10 \
 	&& npm install npm@latest -g \

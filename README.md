@@ -10,7 +10,7 @@ Includes:
 * [git](https://git-scm.com/)
 * [jq](https://stedolan.github.io/jq/)
 * [unzip](http://www.info-zip.org/UnZip.html)
-* [Python 2](https://www.python.org/)
+* [Python 2 & 3](https://www.python.org/)
 * [Node.js](https://nodejs.org/)
 * [Serverless](https://serverless.com/)
 * [Terraform](https://www.terraform.io/)
