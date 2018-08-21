@@ -14,6 +14,7 @@ Includes:
 * [Node.js](https://nodejs.org/)
 * [Serverless](https://serverless.com/)
 * [Terraform](https://www.terraform.io/)
+* [tfenv](https://github.com/Zordrak/tfenv)
 * [ChefDK](https://downloads.chef.io/chefdk)
 * [Pipenv](https://pypi.python.org/pypi/pipenv)
 * [AWS CLI](https://pypi.python.org/pypi/awscli)
